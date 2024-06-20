@@ -97,3 +97,40 @@
 // };
 
 // searchName(hello);
+
+// Стрілкові функції
+
+// const test = arg => {
+//   console.log(arg);
+// };
+
+// test('Hello');
+
+// const showMovie = age => {
+//   if (age >= 21) {
+//     return console.log('Hello!');
+//   }
+//   return console.log('Bye!');
+// };
+
+// showMovie(20);
+
+// // console.log(document);
+// const numberRef = document.querySelector('input[name="number"]');
+// const buttonRef = document.querySelector('button');
+
+// // console.log(numberRef.value);
+// // console.log(buttonRef);
+
+// buttonRef.addEventListener('click', () => {
+//   console.log(numberRef.value);
+// });
+
+// const addNumber = number => {
+//   let summ = Number(number) + 10;
+//   return console.log(summ);
+// };
+
+// const numberRef = document.querySelector('input[name="number"]');
+// const buttonRef = document.querySelector('button');
+// buttonRef.addEventListener('click', () => addNumber(numberRef.value));
